@@ -15,6 +15,12 @@ if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
     
 }
 
+if ((roll1 == roll3) && (roll1 == roll3 ))
+{
+    Console.WriteLine($"you rolled triple! +6 bonus to total");
+    total += 6;
+}
+
 if (total >= 15)
 {
     Console.WriteLine("You Win!");
